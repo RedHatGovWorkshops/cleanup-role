@@ -1,0 +1,4 @@
+# file: roles/cleanup/defaults/main.yml
+---
+#
+# foo: default

@@ -1,0 +1,7 @@
+# file: roles/cleanup/tasks/main.yml
+---
+- name: remove keys
+  command: rm keys chdir=/home/ec2-user
+
+- name: remove keys
+  command: rm keys chdir=/tmp
